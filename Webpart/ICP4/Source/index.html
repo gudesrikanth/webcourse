@@ -1,0 +1,43 @@
+<html xmlns:background-color="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Github User Finder</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+<header>
+    <h1>Github User Finder</h1>
+</header>
+<div id="container">
+    <div class="search" style="padding-top: 20px; border-radius: 50px">
+        <i class="fa fa-github fa-2x" style="position: relative"></i>
+        <input id="username" placeholder="Enter a username to search.." type="text"></input>
+    </div>
+    <div class="search">
+        <div id="profile">
+            <div class="avatar">
+                <img id="gitimage" style="height: 200px; width: 200px">
+            </div>
+            <!--Acquiring details from JavaScript based on Element by id-->
+            <div class="information" style="padding-left: 20px">
+                <table>
+                    <tr><td>Name</td> <td><span id="gitname" style="padding-left: 40px"></span></td></tr>
+                    <tr><td>ID</td> <td><span id="gitid"style="padding-left: 40px"></span></td></tr>
+                    <tr><td>GitHub URL</td> <td><a id="giturl"style="padding-left: 40px"></a></td></tr>
+                    <tr><td>Twitter ID</td> <td><span id="twitter"style="padding-left: 40px"></span></td></tr>
+                    <tr><td>Public Repositories</td> <td><span id="gitrepo"style="padding-left: 40px"></span></td></tr>
+                    <tr><td>Public Gists</td> <td><span id="gitgist"style="padding-left: 40px"></span></td></tr>
+                    <tr><td>Followers</td> <td><span id="gitfollowers"style="padding-left: 40px"></span></td></tr>
+                    <tr><td>Following</td> <td><span id="gitfollowing"style="padding-left: 40px"></span></td></tr>
+                    <tr><td>Bio</td> <td><span id="gitbio"style="padding-left: 40px"></span></td></tr>
+                    <tr><td>Created at</td> <td><span id="gitcreated"style="padding-left: 40px"></span></td></tr>
+                    <tr><td>Updated at</td> <td><span id="gitupdated"style="padding-left: 40px"></span></td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
