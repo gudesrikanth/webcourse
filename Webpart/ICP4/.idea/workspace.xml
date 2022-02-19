@@ -23,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ICP5" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -36,6 +36,8 @@
       <updated>1644378756782</updated>
       <workItem from="1644378760036" duration="12207000" />
       <workItem from="1644435018478" duration="14257000" />
+      <workItem from="1644463118352" duration="609000" />
+      <workItem from="1645153290869" duration="133000" />
     </task>
     <servers />
   </component>
